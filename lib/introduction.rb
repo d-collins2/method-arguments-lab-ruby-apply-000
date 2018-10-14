@@ -2,6 +2,6 @@ def introduction(name, language)
   if language == nil 
     puts "Hi, my name is #{name}."
   else 
-    puts 
+    puts "Hi, my name is #{name} and I am learning to program in #{language}."
   end 
 end 
