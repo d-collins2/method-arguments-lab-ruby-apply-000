@@ -1,9 +1,5 @@
 def introduction_with_language(name, language)
-  if language == nil 
-    puts "Hi, my name is #{name}."
-  else 
-    puts "Hi, my name is #{name} and I am learning to program in #{language}."
-  end 
+  puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end 
 
 def introduction(name)
